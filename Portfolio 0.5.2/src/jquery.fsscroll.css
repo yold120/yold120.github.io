@@ -1,0 +1,1733 @@
+[data-fs-scroll] {
+  position: fixed;
+}
+
+[data-fs-scroll] .page {
+  position: fixed;
+  list-style: none;
+}
+
+/*
+@media only screen and (min-width: 768px) and   (min-height: 1024px) {
+
+  .section0 {
+    background: #000;
+}
+
+
+
+
+}
+
+*/
+
+/*PC*/
+@media only screen and (max-width: 1600px) and (min-width: 1281px) {  
+  /*INICIO PC*/
+  
+    
+    
+    
+    .cancelarcv
+{
+  display: none;
+}
+.tab2 {
+        
+  border-bottom: 4px solid #ac6eff4a;
+background-color: transparent;
+width: 100%;
+padding: 1% 1%;
+display: flex;
+justify-content: center;
+
+  
+
+
+}
+.tab2 button {
+  color: #000;
+  
+  background-color: #fff;
+  float: left;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 5px 30px;
+  margin-left: 20px;
+  transition: 0.3s;
+  font-size: 17px;
+
+}
+    
+    [data-fs-scroll] .page.horizontal {
+      right: -10%;
+      left: 98%;
+      top: 42%;
+    
+    transform: translateY(-50%);
+    -webkit-transform: translateX(20%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateY(-50%);
+    
+    z-index: 9; /*por encima de la imagen y los botones*/
+    
+    }
+    
+    .iconos{
+      width: 100%;
+      filter: hue-rotate(66deg);
+      
+      
+    }
+    
+    .iconof{
+      z-index: -1;
+      background-color: rgb(255, 255, 255);
+      width: 100%;
+      height: 100%;
+      margin: -88% -30%; /*distancia back*/
+     
+      position: fixed;
+      border-radius: 5% 0% 0% 5%;
+      box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.75);
+    
+      
+      
+    }
+
+    .portfolioico1{
+      width: 70px;
+      height: 60px;
+    }
+    
+    [data-fs-scroll] .page li {
+      width: 14%;
+      height: 10%;
+      background: rgba(255,255,255,0.0);
+      border-radius: 20%;
+      margin: 4% -25%; /*distancia iconos*/
+      cursor: pointer;
+      
+    }
+    
+    [data-fs-scroll] .page li.active {
+      
+      background: rgb(255, 255, 255);
+      margin: 5% -38%;
+      padding-left: 3%; /*espacio entre el icono y el borde*/
+      padding-top: 2%;
+      padding-bottom: 2%;
+      border-bottom: 2px rgb(164, 61, 204);
+      border-top: 2px rgb(164, 61, 204);
+      border-left: 2px rgb(164, 61, 204);
+      border-style: solid;
+      border-radius: 20% 0% 0% 20%;
+      
+      
+    }
+    
+    
+    
+    [data-fs-scroll] .page.vertical .active {
+      height: 14%;
+      width: 18%; /*cambiar tamaño de icono activo*/
+      
+      
+    }
+    
+    .titulo-sombra{
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      margin-left: 0;
+      padding-left: 5%;
+      padding-top: 10%;
+      font-size: 300px;
+      text-align: left;
+      color: gray;
+      opacity: 20%;
+      margin-bottom: 0;
+      position: absolute;
+    }
+    
+    .titulo1{
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      margin-left: 0%;
+      padding-left: 10%;
+      padding-top: 7%;
+      font-size: 900%;
+      text-align: left;
+      color: rgb(75, 31, 133);
+      display: flex;
+      padding-right: 30%;
+      text-shadow: 5px 5px 5px rgb(0 0 0 / 50%);
+      inline-size: 400mm;
+      z-index: 2;
+    }
+
+    .cont-section1 div.txt1-normal{
+      width: 100%;
+      margin-bottom: 20%;
+    }
+    
+    .txt1-normal{
+      margin-left: 0%;
+      padding-left: 10%;
+      padding-top: 30%;
+      font-size: 230%;
+      text-align: left;
+      color: rgb(0, 0, 0);
+      position: fixed;
+      padding-right: 40%;
+      
+    }
+    .txt1-t1{
+      padding-top: 5%;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .txt1-p{
+      padding-top: 1%;
+      margin-bottom: 50%;
+      font-family:  ui-rounded;
+    }
+    
+   
+    
+    .frase{
+      padding-top: 5%;
+      font-style: oblique;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      color: gray;
+      font-size: 20px;
+    }
+
+
+
+    .section h1 {
+      position: absolute;
+      top: 190%;
+      left: 980%; /*posicion final*/
+      
+      transform: translate(-50%, -50%);
+      font-size: 100%;
+      transition: all .3s ease;
+      z-index: 2;
+      color: black;
+    }
+  
+    .section h1.text-animate {
+    left: 0px;
+    transform: translateX(-100%);
+  }
+
+    .section:first-child h1 {
+      animation: first-show .9s;
+    }
+
+    
+
+  
+  @keyframes first-show {
+    0% {
+      left: 0px;
+      transform: translateX(-100%);
+    }
+    100% {
+      
+      left: 980%; /*se traslada hasta...*/
+      transform: translateX(-50%);
+      transform: translateY(-50%);
+    }
+  }
+    
+    
+    
+    .btn1{
+      background-color: rgb(255, 255, 255, 0.3);
+      color: rgba(75, 0, 130, 0.9);
+      font-family: monospace;
+      font-size: 18px;
+    
+      box-shadow: 5px 5px 5px rgb(0 0 0 / 50%);
+      letter-spacing: 2px;
+      padding: .5rem 1rem;
+      line-height: 1.5;
+      border-radius: .3rem;
+    
+      z-index: 2;
+      position: fixed;
+      margin-top: 55%;
+      margin-left: 55%;
+      width: 10%;
+      height: 50px;
+      list-style: none;
+      border: 0px;
+    
+    }
+    
+    .btn2{
+      background-color: rgb(255, 255, 255, 0.3);
+      color: rgba(75, 0, 130, 0.9);
+      font-family: monospace;
+      font-size: 18px;
+    
+      box-shadow: 5px 5px 5px rgb(0 0 0 / 50%);
+      letter-spacing: 2px;
+      padding: .5rem 1rem;
+      line-height: 1.5;
+      border-radius: .3rem;
+      
+      z-index: 2;
+      position: fixed;
+      margin-top: 55%;
+      margin-left: 70%;
+      
+      width: 10%;
+      height: 50px;
+      list-style: none;
+      border: 0px;
+    
+    }
+    
+    .btn3{
+      background-color: rgb(255, 255, 255, 0.3);
+      color: rgba(75, 0, 130, 0.9);
+      font-family: monospace;
+      font-size: 18px;
+      
+      box-shadow: 5px 5px 5px rgb(0 0 0 / 50%);
+      letter-spacing: 5px;
+      padding: .5rem 1rem;
+      line-height: 1.5;
+      border-radius: .3rem;
+      
+      border: 0px;
+    
+      z-index: 2;
+      position: fixed;
+      margin-top: 55%;
+      margin-left: 85%;
+      
+      
+      width: 10%;
+      height: 50px;
+      list-style: none;
+    }
+    
+    
+    .btn1:hover, .btn2:hover, .btn3:hover{
+      background-color: rgba(75, 0, 130, 0.9);
+      color: white;
+      font-size: 20px;
+    
+    }
+
+    .foto1 img{
+      position: fixed;
+      width: 45%;
+      height: 100%;
+      margin-left: 50%;
+      margin-top: 1%;
+      padding-left: 1%;
+      opacity: 80%;
+  
+    }
+
+      /*#region CURRICULUM WEB*/
+  .curriculum-panel1{
+    position: absolute;
+    margin-left: 10%;
+    background-color: #fff;
+    width: 22%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 80%;
+    box-shadow:8px 6px 12px 2px #000000; 
+    border-radius: 2% 2% 2% 2%;
+  }
+
+  .cont-curriculum-panel2{
+    position: absolute;
+    margin-left: 40%;
+    background-color: white;
+    width: 50%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    height: 80%;
+    box-shadow: 13px 14px 6px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: -10px 6px 6px -10px rgba(112, 111, 111, 0.473);
+    border-radius: 2% 2% 2% 2%;
+    
+  }
+  .cont-curriculum-panel3{ /*espacio donde se colocan los datos de las tab*/
+    display: flex;
+    
+    background-color: rgb(40, 24, 133);
+    width: 100%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    height: 100%;
+    overflow: auto;
+    box-shadow: 13px 14px 6px -10px rgba(0, 0, 0, 0.75);
+    border-radius: 0% 0% 2% 2%;
+    
+
+  }
+
+  .img-row-seccion4-curriculum{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 1%;
+      box-shadow:0px 7px 17px 5px #000; 
+    position: relative;
+    width: 70%;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+
+    border-radius: 100% 100% 100% 100%; 
+
+  }
+
+  .curriculum-nombre{
+    font-size: 20px;
+    text-align: center; 
+    padding-bottom: 10%;
+    padding-top: 10%;
+    box-shadow:0px 0px 31px 0px #000; 
+    background-color: #ac6eff;
+    
+  }
+
+  .curriculum-tabla{
+    color: black;
+    width: 90%;
+    height: 30%;
+    margin: 5% 5% 5%;
+    font-size: 16px;
+  }
+
+  .curriculum-tabla2{
+    width: 100%;
+    height: 30%;
+    padding-left: 10%;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    line-height: 50px;
+
+
+  }
+  .curriculum-tabla2 tr{
+    margin-left: 10%;
+  }
+  .tab {
+    overflow: hidden;
+    background-color: #E6A23C;
+
+    /*background-color: transparent; /*rgb(164, 61, 204);*/
+    width: 100%;
+    margin-left: 0%;
+    height: 7%;
+    
+
+    
+
+
+  }
+  .tab button {
+    color: #fff;
+    background-color: rgb(164, 61, 204);
+    float: left;
+    outline: none;
+    cursor: pointer;
+    padding: 1px 13.45%; /*margen que cubren los botones*/
+    transition: 0.3s;
+    font-size: 17px;
+    border: 0px #2E4053;
+    filter: grayscale(0.5);
+    
+
+  }
+  .tab button:hover {
+    background-color: #fff;
+    border-right: 2px rgb(164, 61, 204);
+    border-top: 2px rgb(164, 61, 204);
+    border-left: 2px rgb(164, 61, 204);
+    border-style: solid;
+  }
+  .tab button.active {
+    background-color: #fff;
+    filter: none;
+    border-right: 2px rgb(164, 61, 204);
+    border-top: 2px rgb(164, 61, 204);
+    border-left: 2px rgb(164, 61, 204);
+    border-style: solid;
+    
+    
+  }
+  .tabcontent {
+    padding: 0% 5%;
+    margin-left: 0%;
+    
+    width: 100%;
+    /*background-color: rgb(224, 21, 21);*/
+    background-color: rgb(255, 255, 255);
+    color: black;
+    
+    
+  }
+  
+  .curriculum-ico1{
+    width: 50px;
+  }
+
+  .span-ico1{
+    color: black  ;
+  }
+  /*#endregion*/
+
+
+    
+
+    
+  /*INICIO PC*/
+}  
+
+/* laptop */  
+@media only screen and (max-width: 1280px) and (min-width: 801px) {  
+ 
+
+  
+
+.section0 {
+  background-color: rgb(29, 179, 91);
+  }
+  
+  .cancelarcv
+  {
+    display: none;
+  }
+
+  
+  .tab2 {
+        
+    border-bottom: 4px solid #ac6eff4a;
+background-color: transparent;
+width: 100%;
+padding: 1% 1%;
+display: flex;
+justify-content: center;
+
+    
+
+
+  }
+  .tab2 button {
+    color: #000;
+    background-color: #fff;
+    float: left;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 5px 30px;
+    margin-left: 20px;
+    transition: 0.3s;
+    font-size: 17px;
+
+  }
+  
+  
+  [data-fs-scroll] .page.horizontal {
+    right: -26%;
+    left: 96%;
+    top: 38%;
+  
+  transform: translateY(-50%);
+  -webkit-transform: translateX(0%);
+  -moz-transform: translateX(-50%);
+  -o-transform: translateY(-50%);
+  
+  z-index: 9; /*por encima de la imagen y los botones*/
+  
+  }
+  
+  .iconos{
+    width: 50%;
+    filter: hue-rotate(66deg);
+    
+    
+  }
+  
+  .iconof{
+    z-index: -1;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 90%;
+    margin: -58% 0%; /*distancia back*/
+   
+    position: fixed;
+    border-radius: 5% 0% 0% 5%;
+    box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.75);
+    
+    
+  }
+
+  .portfolioico1{
+    width: 70px;
+    height: 60px;
+  }
+  
+  [data-fs-scroll] .page li {
+    width: 14%;
+    height: 10%;
+    background: rgba(255,255,255,0.0);
+    border-radius: 20%;
+    margin: 5% 0%; /*distancia iconos*/
+    cursor: pointer;
+    
+  }
+  
+  [data-fs-scroll] .page li.active {
+    
+    background: rgb(255, 255, 255);
+    margin: 5% -6%;
+    padding-left: 0%; /*espacio entre el icono y el borde*/
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-bottom: 2px rgb(164, 61, 204);
+    border-top: 2px rgb(164, 61, 204);
+    border-left: 2px rgb(164, 61, 204);
+    border-style: solid;
+    border-radius: 20% 0% 0% 20%;
+    
+    
+  }
+  
+  
+  [data-fs-scroll] .page.horizontal .active{
+    
+    width: 14%;
+    height: 13%;
+    
+    
+    
+  }
+  
+  [data-fs-scroll] .page.vertical .active {
+    height: 9%;
+    width: 15%;
+    
+    
+  }
+  
+  .titulo-sombra{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 0;
+    padding-left: 5%;
+    padding-top: 10%;
+    font-size: 200px;
+    text-align: left;
+    color: gray;
+    opacity: 20%;
+    margin-bottom: 20%;
+    position: absolute;
+  }
+  
+  .titulo1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 0%;
+    padding-left: 10%;
+    margin-top: 5%;
+    font-size: 800%;
+    text-align: left;
+    color: rgb(75, 31, 133);
+    display: flex;
+    margin-right: 20%;
+    text-shadow: 5px 5px 5px rgb(0 0 0 / 50%);
+    inline-size: 400mm;
+    z-index: 2;
+  }
+  
+  .cont-section1 div.txt1-normal{
+    width: 100%;
+    margin-bottom: 20%;
+  }
+  
+  .txt1-normal{
+    margin-left: 0%;
+    padding-left: 10%;
+    margin-top: 30%;
+    font-size: 230%;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    position: fixed;
+    padding-right: 40%;
+    
+  }
+  .txt1-t1{
+    padding-top: 5%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .txt1-p{
+    padding-top: 5%;
+    margin-bottom: 50%;
+    font-family:  ui-rounded;
+  }
+  
+  .frase{
+    margin-top: 5%;
+    font-style: oblique;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: gray;
+    font-size: 50%;
+  }
+
+  .section h1 {
+    position: absolute;
+    top: 190%;
+    left: 980%; /*posicion final*/
+    transform: translate(-50%, -50%);
+    font-size: 250px;
+    transition: all .5s ease;
+    z-index: 2;
+    color: black;
+  }
+
+  .section h1.text-animate {
+  left: 0px;
+  transform: translateX(-100%);
+}
+
+  .section:first-child h1 {
+    animation: first-show .9s;
+  }
+
+  
+
+
+@keyframes first-show {
+  0% {
+    left: 0px;
+    transform: translateX(-100%);
+  }
+  100% {
+    left: 980%; /*se traslada hasta...*/
+    transform: translateX(-50%);
+  }
+}
+
+  .btn1{
+    background-color: rgb(255, 255, 255, 0.3);
+    color: rgba(75, 0, 130, 0.9);
+    font-family: monospace;
+    font-size: 18px;
+  
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 50%);
+    letter-spacing: 2px;
+    padding: .5rem 1rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+  
+    z-index: 2;
+    position: fixed;
+    margin-top: 40%;
+    margin-left: 80%;
+    width: 10%;
+    height: 50px;
+    list-style: none;
+    border: 0px;
+  
+  }
+  
+  .btn2{
+    background-color: rgb(255, 255, 255, 0.3);
+    color: rgba(75, 0, 130, 0.9);
+    font-family: monospace;
+    font-size: 18px;
+  
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 50%);
+    letter-spacing: 2px;
+    padding: .5rem 1rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    
+    z-index: 2;
+    position: fixed;
+    margin-top: 50%;
+    margin-left: 80%;
+    
+    width: 10%;
+    height: 50px;
+    list-style: none;
+    border: 0px;
+  
+  }
+  
+  .btn3{
+    background-color: rgb(255, 255, 255, 0.3);
+    color: rgba(75, 0, 130, 0.9);
+    font-family: monospace;
+    font-size: 18px;
+    
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 50%);
+    letter-spacing: 5px;
+    padding: .5rem 1rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    
+    border: 0px;
+  
+    z-index: 2;
+    position: fixed;
+    margin-top: 60%;
+    margin-left: 80%;
+    
+    
+    width: 10%;
+    height: 50px;
+    list-style: none;
+  }
+  
+  
+  .btn1:hover, .btn2:hover, .btn3:hover{
+    background-color: rgba(75, 0, 130, 0.9);
+    color: white;
+    font-size: 20px;
+  
+  }
+
+  .foto1 img{
+    position: fixed;
+    width: 45%;
+    height: 100%;
+    margin-left: 50%;
+    margin-top: 1%;
+    padding-left: 1%;
+    opacity: 80%;
+
+  }
+
+  /*#region CURRICULUM WEB*/
+  .curriculum-panel1{
+    position: absolute;
+    margin-left: 10%;
+    background-color: #fff;
+    width: 22%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 80%;
+    box-shadow:8px 6px 12px 2px #000000; 
+    border-radius: 2% 2% 2% 2%;
+  }
+
+  .cont-curriculum-panel2{
+    position: absolute;
+    margin-left: 40%;
+    background-color: white;
+    width: 50%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    height: 80%;
+    box-shadow: 13px 14px 6px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: -10px 6px 6px -10px rgba(112, 111, 111, 0.473);
+    border-radius: 2% 2% 2% 2%;
+    
+  }
+  .cont-curriculum-panel3{ /*espacio donde se colocan los datos de las tab*/
+    display: flex;
+    
+    background-color: rgb(40, 24, 133);
+    width: 100%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    height: 100%;
+    overflow: auto;
+    box-shadow: 13px 14px 6px -10px rgba(0, 0, 0, 0.75);
+    border-radius: 0% 0% 2% 2%;
+    
+
+  }
+
+  .img-row-seccion4-curriculum{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 1%;
+      box-shadow:0px 7px 17px 5px #000; 
+    position: relative;
+    width: 70%;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+
+    border-radius: 100% 100% 100% 100%; 
+
+  }
+
+  .curriculum-nombre{
+    font-size: 20px;
+    text-align: center; 
+    padding-bottom: 10%;
+    padding-top: 10%;
+    box-shadow:0px 0px 31px 0px #000; 
+    background-color: rgb(164, 61, 204);
+    
+  }
+
+  .curriculum-tabla{
+    color: black;
+    width: 90%;
+    height: 30%;
+    margin: 5% 5% 5%;
+    font-size: 16px;
+  }
+
+  .curriculum-tabla2{
+    width: 100%;
+    height: 30%;
+    padding-left: 10%;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    line-height: 50px;
+
+
+  }
+  .curriculum-tabla2 tr{
+    margin-left: 10%;
+  }
+  .tab {
+    overflow: hidden;
+    background-color: #E6A23C;
+
+    /*background-color: transparent; /*rgb(164, 61, 204);*/
+    width: 100%;
+    margin-left: 0%;
+    height: 8%;
+    
+
+    
+
+
+  }
+  .tab button {
+    color: #fff;
+    background-color: rgb(164, 61, 204);
+    float: left;
+    outline: none;
+    cursor: pointer;
+    padding: 1px 12.65%; /*margen que cubren los botones*/
+    transition: 0.3s;
+    font-size: 17px;
+    border: 0px #2E4053;
+    filter: grayscale(0.5);
+    
+
+  }
+  .tab button:hover {
+    background-color: #fff;
+    border-right: 2px rgb(164, 61, 204);
+    border-top: 2px rgb(164, 61, 204);
+    border-left: 2px rgb(164, 61, 204);
+    border-style: solid;
+  }
+  .tab button.active {
+    background-color: #fff;
+    filter: none;
+    border-right: 2px rgb(164, 61, 204);
+    border-top: 2px rgb(164, 61, 204);
+    border-left: 2px rgb(164, 61, 204);
+    border-style: solid;
+    
+    
+  }
+  .tabcontent {
+    padding: 0% 5%;
+    margin-left: 0%;
+    
+    width: 100%;
+    /*background-color: rgb(224, 21, 21);*/
+    background-color: rgb(255, 255, 255);
+    color: black;
+    
+    
+  }
+  
+  .curriculum-ico1{
+    width: 50px;
+  }
+
+  .span-ico1{
+    color: black  ;
+  }
+  /*#endregion*/
+  
+
+
+}  
+
+/* tablets */  
+@media only screen and (max-width: 800px) and (min-width: 551px) {  
+
+/*INICIO TABLETS*/
+
+  .section0 {
+}
+
+
+span{
+  display: none;
+}
+
+.navbar1{
+  display: none;
+}
+
+
+.circle-container{
+  display: none;
+}
+
+
+.tab2 {
+        
+  border-bottom: 4px solid #ac6eff4a;
+background-color: transparent;
+width: 100%;
+padding: 1% 1%;
+display: flex;
+justify-content: center;
+
+  
+
+
+}
+.tab2 button {
+  color: #000;
+  background-color: #fff;
+  float: left;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 5px 30px;
+  margin-left: 20px;
+  transition: 0.3s;
+  font-size: 17px;
+
+}
+
+[data-fs-scroll] .page.vertical {
+
+}
+
+
+[data-fs-scroll] .page.horizontal {
+  right: -26%;
+  left: 76%;
+  top: 50%;
+  
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateX(-50%);
+  -o-transform: translateY(-50%);
+
+z-index: 9; /*por encima de la imagen y los botones*/
+
+}
+
+.iconos{
+  width: 100%;
+  filter: hue-rotate(66deg);
+  
+  
+}
+
+.portfolioico1{
+  width: 70px;
+  height: 60px;
+}
+
+.iconof{
+  z-index: -1;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 100%;
+  margin: -88% 26%; /*distancia back*/
+ 
+  position: fixed;
+  border-radius: 5% 0% 0% 5%;
+  box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.75);
+
+  
+  
+}
+
+[data-fs-scroll] .page li {
+  width: 14%;
+  height: 10%;
+  background: rgba(255,255,255,0.0);
+  border-radius: 20%;
+  margin: 5% 30%; /*distancia iconos*/
+  cursor: pointer;
+  
+}
+
+[data-fs-scroll] .page li.active {
+  
+  background: rgb(255, 255, 255);
+  margin: 5% 20%;
+  padding-left: 3%; /*espacio entre el icono y el borde*/
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-bottom: 2px rgb(164, 61, 204);
+  border-top: 2px rgb(164, 61, 204);
+  border-left: 2px rgb(164, 61, 204);
+  border-style: solid;
+  border-radius: 20% 0% 0% 20%;
+  
+  
+}
+
+
+
+[data-fs-scroll] .page.vertical .active {
+  height: 14%;
+  width: 17%; /*cambiar tamaño de icono activo*/
+  
+  
+}
+
+.titulo-sombra{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-left: 0;
+  padding-left: 5%;
+  padding-top: 10%;
+  font-size: 200px;
+  text-align: left;
+  color: gray;
+  opacity: 20%;
+  margin-bottom: 0;
+  position: absolute;
+}
+
+.titulo1{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-left: 0%;
+  padding-left: 10%;
+  padding-top: 5%;
+  font-size: 600%;
+  text-align: left;
+  color: rgb(75, 31, 133);
+  display: flex;
+  padding-right: 10%;
+  text-shadow: 5px 5px 5px rgb(0 0 0 / 50%);
+  inline-size: 400mm;
+  z-index: 2;
+}
+
+.cont-section1 div.txt1-normal{
+  width: 100%;
+  margin-bottom: 20%;
+}
+
+.txt1-normal{
+  margin-left: 0%;
+  padding-left: 10%;
+  padding-top: 45%;
+  font-size: 170%;
+  text-align: left;
+  color: rgb(0, 0, 0);
+  position: fixed;
+  padding-right: 40%;
+  
+}
+.txt1-t1{
+  padding-top: 5%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.txt1-p{
+  padding-top: 5%;
+  margin-bottom: 50%;
+  font-family:  ui-rounded;
+}
+
+.frase{
+  display: none;
+}
+
+
+.section h1 {
+  position: absolute;
+  top: 190%;
+  left: 980%; /*posicion final*/
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+  transition: all .3s ease;
+  z-index: 2;
+  color: black;
+}
+
+.section h1.text-animate {
+left: 0px;
+transform: translateX(-100%);
+}
+
+.section:first-child h1 {
+  animation: first-show .9s;
+}
+
+
+
+
+@keyframes first-show {
+0% {
+  left: 0px;
+  transform: translateX(-100%);
+}
+100% {
+  left: 980%; /*se traslada hasta...*/
+  transform: translateX(-50%);
+}
+}
+
+
+
+.btn1{
+  background-color: rgb(255, 255, 255, 0.3);
+  color: rgba(75, 0, 130, 0.9);
+  font-family: monospace;
+  font-size: 18px;
+
+  box-shadow: 5px 5px 5px rgb(0 0 0 / 50%);
+  letter-spacing: 2px;
+  padding: .5rem 1rem;
+  line-height: 1.5;
+  border-radius: .3rem;
+
+  z-index: 2;
+  position: fixed;
+  margin-top: 70%;
+  margin-left: 8%;
+  width: 10%;
+  height: 50px;
+  list-style: none;
+  border: 0px;
+
+}
+
+.btn2{
+  background-color: rgb(255, 255, 255, 0.3);
+  color: rgba(75, 0, 130, 0.9);
+  font-family: monospace;
+  font-size: 18px;
+
+  box-shadow: 5px 5px 5px rgb(0 0 0 / 50%);
+  letter-spacing: 2px;
+  padding: .5rem 1rem;
+  line-height: 1.5;
+  border-radius: .3rem;
+  
+  z-index: 2;
+  position: fixed;
+  margin-top: 50%;
+  margin-left: 80%;
+  
+  width: 10%;
+  height: 50px;
+  list-style: none;
+  border: 0px;
+
+}
+
+.btn3{
+  background-color: rgb(255, 255, 255, 0.3);
+  color: rgba(75, 0, 130, 0.9);
+  font-family: monospace;
+  font-size: 18px;
+  
+  box-shadow: 5px 5px 5px rgb(0 0 0 / 50%);
+  letter-spacing: 5px;
+  padding: .5rem 1rem;
+  line-height: 1.5;
+  border-radius: .3rem;
+  
+  border: 0px;
+
+  z-index: 2;
+  position: fixed;
+  margin-top: 60%;
+  margin-left: 80%;
+  
+  
+  width: 10%;
+  height: 50px;
+  list-style: none;
+}
+
+
+.btn1:hover, .btn2:hover, .btn3:hover{
+  background-color: rgba(75, 0, 130, 0.9);
+  color: white;
+  font-size: 20px;
+
+}
+
+.foto1 img{
+  position: fixed;
+  width: 90%;
+  height: 100%;
+  margin-left: 55%;
+  margin-top: 1%;
+  padding-left: 1%;
+  opacity: 80%;
+
+}
+
+
+
+
+
+/*FIN TABLETS*/
+}
+
+/* telefonos*/  
+@media only screen and (max-width: 550px) and (min-width: 0px) {  
+  .section0 {
+    background-color: #fff;
+}
+
+.navbar1{
+  display: none;
+}
+.redes1{
+  display: none;
+}
+
+span{
+  display: none;
+}
+.circle-container{
+  display: none;
+}
+
+[data-fs-scroll] .page.vertical {
+
+}
+
+[data-fs-scroll] .page.horizontal {
+  bottom: 1%;
+  left: 50%;
+  right: -40%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+.iconos{
+  width: 75%;
+  filter: hue-rotate(66deg);
+}
+
+.portfolioico1{
+  width: 50px;
+  height: 40px;
+}
+
+.iconof{
+  z-index: -1;
+  /*background-color: rgb(76, 31, 133);*/
+  background-color: rgb(255, 255, 255);
+  width: 80%;
+  height: 150%;
+  margin-top: -13%;
+  margin-left: 10%;
+  position: fixed;
+  border-radius: 8% 8% 0% 0%;
+  box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.75);
+
+}
+
+li, span{
+  font-size: 90%;
+}
+
+[data-fs-scroll] .page li {
+  width: 14%;
+  height: 15%;
+  background: rgba(255,255,255,0.0);
+  border-radius: 50%;
+  margin: 0% 0% 0% 0%;
+  
+  cursor: pointer;
+}
+
+[data-fs-scroll] .page li.active {
+  
+  /*background: rgb(76, 31, 133);*/
+  background: rgb(255, 255, 255);
+  margin: 0% 0%;
+  padding-bottom: 9%;
+  padding-left: 0%;
+  padding-top: 3%;
+  padding-bottom: 0%;
+  border-right: 2px rgb(164, 61, 204);
+  border-top: 2px rgb(164, 61, 204);
+  border-left: 2px rgb(164, 61, 204);
+  border-style: solid;
+  border-radius: 20% 20% 0% 0%;
+}
+
+[data-fs-scroll] .page.horizontal li {
+  display: inline-block;
+}
+
+[data-fs-scroll] .page.horizontal .active{
+  width: 14%;
+  height: 13%;
+  
+}
+
+[data-fs-scroll] .page.vertical .active {
+  
+  height: 9%;
+  width: 20%;
+  
+  
+}
+
+.titulo-sombra{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding-left: 5%;
+  margin-right: 0%;
+  padding-top: 10%;
+  font-size: 400%;
+  text-align: left;
+  color: gray;
+  opacity: 20%;
+  margin-bottom: 0;
+  position: absolute;
+  
+}
+
+.titulo1{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-left: 0%;
+  padding-left: 10%;
+  padding-top: 5%;
+  
+  font-size: 400%;
+  text-align: left;
+  color: rgb(75, 31, 133);
+  display: flex;
+  padding-right: 20px;
+  text-shadow: 5px 5px 5px rgb(0 0 0 / 50%);
+  inline-size: 400mm;
+  z-index: 2;
+}
+
+.cont-section1 div.txt1-normal{
+  width: 100%;
+  margin-bottom: 20%;
+}
+
+.txt1-normal{
+  min-width: auto;
+  margin-left: 0%;
+  padding-left: 10%;
+  padding-top: 65%;
+  font-size: 150%;
+  text-align: left;
+  color: rgb(0, 0, 0);
+  position: fixed;
+  padding-right: 30%;
+  
+}
+.txt1-t1{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.txt1-p{
+  padding-top: 5%;
+  margin-bottom: 50%;
+  font-family:  ui-rounded;
+}
+
+.frase{
+  display: none;
+  font-style: oblique;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: gray;
+  font-size: 80%;
+}
+
+.section h1 {
+  position: absolute;
+  top: 190%;
+  left: 980%; /*posicion final*/
+  transform: translate(-50%, -50%);
+  font-size: 110%;
+  transition: all .3s ease;
+  z-index: 2;
+  color: black;
+}
+
+.section h1.text-animate {
+left: 0px;
+transform: translateX(-100%);
+}
+
+.section:first-child h1 {
+  animation: first-show .9s;
+}
+
+.foto1 img{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  margin-left: 50%;
+  margin-top: 1%;
+  padding-left: 1%;
+  opacity: 80%;
+
+}
+
+
+
+
+@keyframes first-show {
+0% {
+  left: 0px;
+  transform: translateX(-100%);
+}
+100% {
+  left: 980%; /*se traslada hasta...*/
+  transform: translateX(-50%);
+}
+
+}
+
+
+  /*#region CURRICULUM WEB*/
+  .curriculum-panel1{
+    
+    position: absolute;
+    margin-left: 10%;
+    background-color: #fff;
+    width: 80%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 80%;
+    box-shadow:8px 6px 12px 2px #000000; 
+    border-radius: 2% 2% 2% 2%;
+    z-index: 9;
+    
+  }
+
+  .cont-curriculum-panel2{
+    z-index: 1;
+    position: absolute;
+    margin: 5% 5%;
+    background-color: rgb(185, 36, 36);
+    width: 90%;
+    
+    height: 90%;
+    box-shadow: 1px 1px 11px 1px rgba(0, 0, 0, 0.75);
+    /*
+    box-shadow: -10px 6px 6px -10px rgba(112, 111, 111, 0.473);
+    border-radius: 2% 2% 2% 2%;*/
+    
+  }
+  .cont-curriculum-panel3{ /*espacio donde se colocan los datos de las tab*/
+    display: flex;
+    
+    background-color: rgb(40, 24, 133);
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    height: 70%;
+    overflow: auto;
+    /*box-shadow: 13px 14px 6px -10px rgba(0, 0, 0, 0.75);
+    border-radius: 0% 0% 2% 2%;*/
+    
+
+  }
+
+  .img-row-seccion4-curriculum{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 1%;
+      box-shadow:0px 7px 17px 5px #000; 
+    position: relative;
+    width: 50%;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+
+    border-radius: 100% 100% 100% 100%; 
+
+  }
+
+  .curriculum-nombre{
+    font-size: 18px;
+    
+    text-align: center; 
+    padding-bottom: 5%;
+    padding-top: 5%;
+    box-shadow:0px 0px 31px 0px #000; 
+    background-color: rgb(172, 110, 255);
+    
+  }
+
+  .curriculum-tabla{
+    
+    color: black;
+    width: 90%;
+    height: 30%;
+    margin: 1% 5%;
+    font-size: 13px;
+    
+    /*display: flex;*/
+  }
+  
+  .bajarcv{
+    margin-top: -1%;
+    text-align: center;
+    text-decoration: none;
+  }
+  .bajarcv a{
+    
+    text-decoration: none;
+  }
+  
+
+  .curriculum-tabla2{
+    width: 100%;
+    height: 30%;
+    /*padding-left: 10%;*/
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    line-height: 50px;
+
+
+  }
+  .curriculum-tabla2 tr{
+    margin-left: 10%;
+  }
+  .tab {
+    overflow: hidden;
+    background-color: #E6A23C;
+
+    /*background-color: transparent; /*rgb(164, 61, 204);*/
+    width: 100%;
+    margin-left: 0%;
+    height: 11%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    align-content: center;
+
+    
+
+
+  }
+  .tab button {
+    color: #fff;
+    background-color: rgb(164, 61, 204);
+    float: left;
+    outline: none;
+    cursor: pointer;
+    padding: 5px 9%; /*margen que cubren los botones*/
+    transition: 0.3s;
+    font-size: 17px;
+    border: 0px #2E4053;
+    filter: grayscale(0.5);
+    
+
+  }
+  .tab button:hover {
+    background-color: #fff;
+    border-right: 2px rgb(164, 61, 204);
+    border-top: 2px rgb(164, 61, 204);
+    border-left: 2px rgb(164, 61, 204);
+    border-style: solid;
+  }
+  .tab button.active {
+    background-color: #fff;
+    filter: none;
+    border-right: 2px rgb(164, 61, 204);
+    border-top: 2px rgb(164, 61, 204);
+    border-left: 2px rgb(164, 61, 204);
+    border-style: solid;
+    
+    
+  }
+  .tabcontent {
+    /*padding: 0% 5%;*/
+    margin-left: 0%;
+    
+    width: 100%;
+    /*background-color: rgb(224, 21, 21);*/
+    background-color: rgb(255, 255, 255);
+    color: black;
+    
+    
+  }
+
+  .tab2{
+    overflow: auto;
+    border-bottom: 4px solid #ac6eff4a;
+    background-color: transparent;
+    width: 100%;
+    padding: 1% 1%;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .tab2 button {
+    
+    color: #000;
+    background-color: #fff;
+    float: left;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 5px 30px;
+    margin-left: 20px;
+    transition: 0.3s;
+    font-size: 17px;
+
+  }
+  
+  .curriculum-ico1{
+    width: 50px;
+  }
+
+  .span-ico1{
+    color: black  ;
+  }
+
+  .flip {
+    transform: perspective(25px) rotateY(10deg) translateX(100%);
+   left: 10%;
+   z-index: -1;
+   transition-duration: 2s;
+  }
+
+  .fondocv1{
+    
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    z-index: 9;
+    
+  }
+  /*#endregion*/
+
+  .carousel-inner{position:relative;width:100%;height: 300px;}
+}  
+
+
+
+
+
+
