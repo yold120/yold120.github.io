@@ -25,7 +25,9 @@
 @media only screen and (max-width: 1600px) and (min-width: 1281px) {  
   /*INICIO PC*/
   
-    
+  .imglimit1 {
+    max-height: 500px;
+}
     
     
     .cancelarcv
@@ -499,7 +501,9 @@ justify-content: center;
 @media only screen and (max-width: 1280px) and (min-width: 801px) {  
  
 
-  
+  .imglimit1 {
+    max-height: 500px;
+}
 
 .section0 {
   background-color: rgb(29, 179, 91);
@@ -974,6 +978,10 @@ justify-content: center;
 /* tablets */  
 @media only screen and (max-width: 800px) and (min-width: 551px) {  
 
+
+  .imglimit1 {
+    max-height: 500px;
+}
 /*INICIO TABLETS*/
 
   .section0 {
@@ -1514,6 +1522,12 @@ transform: translateX(-100%);
 
 /* telefonos*/  
 @media only screen and (max-width: 550px) and (min-width: 0px) {  
+
+
+  .imglimit1 {
+    max-height: 300px;
+}
+
   .section0 {
     background-color: #fff;
 }
