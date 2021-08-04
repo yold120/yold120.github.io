@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="prueba.css">
+    <title>prueba</title>
+</head>
+<body>
+    <h1>Contac Us From</h1>
+    <div class="container">
+        <form onsubmit="return false">
+            <div class="form-item">
+                <label for="">Name: </label><br>
+                <input id="name" type="text" name="name" placeholder="Name" required>
+            </div>
+            
+            <div class="form-item">
+                <label for="">Phone: </label><br>
+                <input id="phone" type="text" name="phone" placeholder="Phone" required>
+            </div>
+            
+            <div class="form-item">
+                <label for="">Email: </label><br>
+                <input id="email" type="text" name="email" placeholder="Email" required>
+            </div>
+            
+            <div class="form-item">
+                <label for="">Message: </label><br>
+                <textarea id="message" name="message" cols="30" rows="10" placeholder="Message" required></textarea>
+           
+            </div>
+
+            <button type="submit" onclick="send(event)">Send Email</button>
+
+        </form>
+    </div>
+
+
+    <script src="prueba.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</body>
+</html>
