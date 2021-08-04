@@ -1,0 +1,643 @@
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+      margin: 0;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+  
+  -webkit-font-smoothing: antialiased;
+
+  
+      color: #222;
+      overflow-x: hidden;
+      margin: 0;
+    
+}
+
+
+
+
+      /*#region estiloGeneral*/
+
+
+
+
+      .container, .sections, .section {
+        position: relative;
+        height: 100%;
+        text-align: center;
+        color: #fff;
+      }
+      
+      
+      .section0 {
+        background-color: #fff;
+      }
+      .section2 {
+        background: #E6A23C;
+      }
+      .section3 {
+        background: #F56C6C;
+      }
+      .section1{
+        background: #fff;
+      }
+      
+  
+      .cont-section1{
+          display: flex;
+        }
+  
+        
+        
+        .foto1{
+          z-index: 1;
+          padding: 0;
+          margin: 0;
+          /*adapatar blur filter: blur(2px);*/
+        }  
+
+
+      
+        .navbar1{
+         
+        }
+  
+        .title-row2{
+          color: black;
+          font-size: 30px;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 5%;
+          margin-bottom: 5%;
+        }
+
+
+        .curriculum-nombre{
+          background-color: #53416b
+        }
+    
+        
+        .tab2 button:hover {
+          background-color: rgba(173, 110, 255, 0.356);
+          border: solid 0px #000;
+          border-radius: 5%;
+        }
+        .tab2 button.active {
+          background-color: rgba(173, 110, 255, 0.267);
+          margin: 3% 3%;
+          border: solid 0px #000;
+          border-radius: 5%;
+        }
+        .tabcontent2 {
+          padding: 0% 5%;
+          
+          margin: 1% 0% 40%;
+          width: 100%;
+          background-color: inherit;
+          color: black;
+          
+        }
+        .cont-seccion5 {
+          
+          position: absolute;
+          background-color: silver;
+          width: 100%;
+          height: 100%;
+          padding-top: 0%;
+          overflow: hidden;
+          box-shadow: 13px 14px 6px -10px rgba(0, 0, 0, 0.75);
+    background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgb(172, 110, 255) 100%);
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgb(172, 110, 255) 100%);
+    background: linear-gradient(to bottom,  rgba(255,255,255,1) 40%,rgb(172, 110, 255) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#01a8ec',GradientType=0 );
+    
+    
+          
+          background-size: cover;
+    
+    
+        }
+        .row3 {
+          margin-left: 5%;
+          margin-right: 5%;
+          margin-top: 3%;
+          margin-bottom: 2%;
+                background-color: white;
+    
+            /* CSS by GenerateCSS.com */
+          box-shadow:0px 1px 6px 0px #000000; 
+        }
+        .row5 {
+          margin-left: 5%;
+          margin-right: 5%;
+          margin-top: 3%;
+          margin-bottom: 2%;
+          background-color: transparent;
+          color: white;
+            /* CSS by GenerateCSS.com */
+          box-shadow:0px 1px 6px 0px #000000; 
+        }
+        .row6 {
+          margin-left: 2%;
+          margin-right: 2%;
+          margin-top: 3%;
+          margin-bottom: 2%;
+          background-color: transparent;
+          color: white;
+            /* CSS by GenerateCSS.com */
+          box-shadow:0px 1px 6px 0px #000000; 
+        }
+        .row6:hover{
+          
+        background-color: #1E88E5;
+    
+           /* CSS by GenerateCSS.com */
+          box-shadow:8px 6px 12px 2px #000000; 
+        }
+        .row2 {
+          margin-left: 5%;
+          margin-right: 5%;
+          margin-top: 3%;
+          margin-bottom: 2%;
+          background-color: silver;
+           /* CSS by GenerateCSS.com */
+          box-shadow:8px 6px 12px 2px #000000; 
+        }
+        .row1 {
+          margin-left: 5%;
+          margin-right: 5%;
+          margin-top: 3%;
+          margin-bottom: 2%;
+          padding-left: 1%;
+          padding-right: 1%;
+          background-color: yellow;
+           
+          box-shadow:0px 0px 11px 1px #000000; 
+        }
+    
+        .row3:hover{
+          
+          background-color: silver;
+           /* CSS by GenerateCSS.com */
+          box-shadow:8px 6px 12px 2px #000000; 
+        }
+        .row5:hover{
+          
+        background-color: #1E88E5;
+    
+           /* CSS by GenerateCSS.com */
+          box-shadow:8px 6px 12px 2px #000000; 
+        }
+        .title-row{
+          color: black;
+          font-size: 30px;
+          margin: 0 auto;
+        }
+    
+        .cont-row{
+          width: 85%;
+          display: flex;
+          margin-left: 15%;
+          flex-direction: row;
+    
+        }
+        .cont-row-seccion3{
+          width: 85%;
+          display: flex;
+          margin-left: 15%;
+          flex-direction: row;
+    
+        }
+        .cont-row-seccion5{
+          display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+          
+    
+        }
+        .cont-proyectos-seccion5{
+          position: absolute;
+          
+          background-color: transparent;
+          width: 100%;
+          margin-top: 0%;
+          margin-bottom: 5%;
+          height: 90%;
+          overflow: auto;
+    
+        }
+
+  
+        .img-row-seccion5{
+          margin-top: 0%;
+          margin-bottom: 0%;
+          
+    
+          position: relative;
+          width: 150px;
+          height: 150px;
+          background-color: #ae70ff;
+    
+          border-radius: 10% 10% 10% 10%; 
+          box-shadow:8px 6px 12px 2px #000000; 
+        }
+  
+        .portfolio-caption{
+          background-color: rgba(0,0,0,0.9);
+          box-shadow:8px 6px 6px 0px #000000; 
+    
+        }
+        
+        .portfolio-caption h4{
+          font-size: 20px;
+          color: rgba(250,250,250,1);
+          cursor: pointer;
+        }
+        .portfolio-caption h4:hover{
+          font-size: 20px;
+          color: #1E88E5;
+          cursor: pointer;
+        }
+        .img-row-seccion5:hover{
+          transition: 5s;
+          transform: rotateZ(10deg);
+          cursor: pointer;
+        }
+        .row5 {
+          padding:3% 3%;
+          
+          margin-left: 5%;
+          margin-right: 5%;
+          margin-top: 3%;
+          margin-bottom: 2%;
+          border-radius: 5px;
+          background-color: transparent;
+    
+            /* CSS by GenerateCSS.com */
+          box-shadow:0px 1px 6px 0px #000000; 
+        }
+        .row5:hover{
+        
+          background-color: #1E88E5;
+      
+             /* CSS by GenerateCSS.com */
+            box-shadow:8px 6px 12px 2px #000000; 
+          }
+        .row6 {
+          padding:3% 3%;
+          padding-bottom: 3%;
+          margin-left: 2%;
+          margin-right: 2%;
+          margin-top: 3%;
+          margin-bottom: 2%;
+          border-radius: 5px;
+          background-color: transparent;
+    
+            /* CSS by GenerateCSS.com */
+          box-shadow:0px 1px 6px 0px #000000; 
+        }
+        .row6:hover{
+          
+        background-color: #1E88E5;
+    
+           /* CSS by GenerateCSS.com */
+          box-shadow:8px 6px 12px 2px #000000; 
+        }
+
+      /*#endregion*/
+  
+
+
+/*#region rotarweb*/
+
+.container {
+  background-color: transparent;
+  transform-origin: top left;
+  transition: transform 0.5s linear;
+  width: 100vw;
+  min-height: 100vh;
+  padding: 0px;
+}
+
+.container.show-nav {
+  transform: rotate(-20deg);
+}
+
+.circle-container {
+  position: fixed;
+  top: -100px;
+  left: -100px;
+  z-index: 9;
+}
+
+.circle {
+  background-color: rgb(172, 110, 255);
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  position: relative;
+  transition: transform 0.5s linear;
+}
+
+.container.show-nav .circle {
+  transform: rotate(-70deg);
+}
+
+.circle button {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 100px;
+  background: transparent;
+  border: 0;
+  font-size: 26px;
+  color: #fff;
+}
+
+.circle button:focus {
+  outline: none;
+}
+
+.circle button#open {
+  left: 60%;
+}
+
+.circle button#close {
+  top: 60%;
+  transform: rotate(90deg);
+  transform-origin: top left;
+}
+
+.container.show-nav + nav li {
+  transform: translateX(0);
+  transition-delay: 0.3s;
+  
+}
+
+
+.cont-section3 {
+    background-image: url(img/fondocontacto.png);
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(94, 91, 91);
+}
+
+.section3-izq h2{
+  font-size: 250%;
+    margin-bottom: 10%;
+}
+.section3-izq li{
+  font-size: 150%;
+  margin-left: 15%;
+}
+.section3-izq span{
+  font-size: 150%;
+    margin: 0 20%;
+}
+
+.section3-izq {
+  margin: 5%;
+  padding: 10% 5%;
+  width: 50%;
+  height: auto;
+  background-color: #0000007a;
+  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.section3-der {
+  width: 50%;
+    height: auto;
+    background-color: white;
+}
+
+.cont-contacto{
+  margin: 10% 10%;
+    display: flex;
+    width: 80%;
+    height: 90%;
+    color: white;
+    /* box-shadow: 13px 14px 6px -10px rgb(0 0 0 / 75%); */
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+}
+
+
+
+.text-input {
+    width: 70%;
+    padding: 4% 12%;
+    margin: 5% 5%;
+    background-color: white;
+    /* border-radius: 10% 10%; */
+    border: 2px rgb(174 112 255 / 31%) solid
+}
+
+.textarea {
+    width: 70%;
+    padding: 4% 12%;
+    margin: 5% 5%;
+    background-color: white;
+    /* border-radius: 10% 10%; */
+    border: 2px rgb(174 112 255 / 31%) solid
+}
+
+.header {
+    color: #AE70FF;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.contacto-ico {
+  padding: 3% 3%;
+    position: fixed;
+    font-size: 25px;
+    color: #AE70FF;
+}
+
+.bt1, .btn2, .btn3{
+text-align: right;
+}
+
+.btnico{
+  position: absolute;
+  margin-left: -30%;
+  width: 30px;
+  
+ }
+
+.cabeza-style {
+  background-color: #53416b;
+  border-bottom: 1px solid black;
+  color: white;
+  line-height: 20px;
+  padding-left: 5px;
+  padding-right: 10px;
+}
+
+nav {
+
+  position: fixed;
+  background-color: #fff;
+  top: 60px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: url(img/panelizq.png);
+  
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 30px;
+  
+}
+
+li{
+  list-style: none;
+}
+
+nav ul li {
+  text-transform: uppercase;
+  color: #fff;
+  margin: 40px 0;
+  transform: translateX(-100%);
+  transition: transform 0.4s ease-in;
+}
+
+nav ul li i {
+  font-size: 20px;
+  margin-right: 10px;
+  
+}
+
+nav ul li + li {
+  margin-left: 15px;
+  transform: translateX(-150%);
+}
+
+nav ul li + li + li {
+  margin-left: 30px;
+  transform: translateX(-200%);
+  
+}
+
+.content img {
+  max-width: 100%;
+}
+
+.content {
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
+.content h1 {
+  margin: 0;
+}
+
+.content small {
+  color: #555;
+  font-style: italic;
+}
+
+.content p {
+  color: #333;
+  line-height: 1.5;
+}
+
+.btnenviar{
+  width: 30%;
+    position: relative;
+    /* left: 0%; */
+    padding: 15px;
+    border-radius: 12px;
+    margin-bottom: 3%;
+    border: 2px #ae70ff solid;
+    background-color: #ffffff;
+}
+.btnenviar:hover{
+  width: 35%;
+    font-size: 20px;
+    border: 2px #ae70ff solid;
+    background-color: rgba(173, 110, 255, 0.267);
+    cursor: pointer;
+}
+
+
+      /*#endregion*/
+  
+
+@media only screen and (max-width: 800px) and (min-width: 551px) { 
+  
+  .cont-contacto{
+    margin-top: 3%;
+  }
+  .cont-section3 {
+    background-image: url(img/fondocontacto.png);
+    display: flex;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(94, 91, 91);
+}
+
+.section3-izq {
+  display: none;
+}
+
+.section3-der {
+  margin-top: -20px;
+  width: 100%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.055);
+    
+}
+
+fieldset{
+  background-color: rgba(53, 48, 48, 0.76);
+  padding-top: -5%;
+}
+}      
+      
+@media only screen and (max-width: 550px) and (min-width: 0px) {  
+  .cont-contacto{
+    margin-top: 3%;
+  }
+  .cont-section3 {
+    background-image: url(img/fondocontacto.png);
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(94, 91, 91);
+}
+
+
+
+.section3-izq {
+  display: none;
+}
+
+.section3-der {
+  width: 100%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.055);
+    
+}
+
+fieldset{
+  background-color: rgba(53, 48, 48, 0.76);
+  padding-top: -5%;
+}
+
+}
